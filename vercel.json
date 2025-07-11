@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/sendEmail.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "EMAIL_HOST": "mail.bpserver.site",
+    "EMAIL_PORT": "587",
+    "EMAIL_USER": "hr@mail.bpserver.site",
+    "EMAIL_PASS": "IdontKnow"
+  }
+}
